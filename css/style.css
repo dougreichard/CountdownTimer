@@ -129,6 +129,10 @@ input::placeholder {
   font-size: 5rem;
 }
 
+.display-now-time {
+  font-size: 4rem;
+}
+
 ::selection {
   color: var(--selection-color);
   background-color: var(--selection-bg-color);

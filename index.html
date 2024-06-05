@@ -27,22 +27,24 @@
   <body>
     <div class="timer">
       <header>
+
         <div class="timer-buttons">
-          <button class="timer-button" data-seconds="20" type="button">
-            20 Secs
-          </button>
-          <button class="timer-button" data-seconds="300" type="button">
-            Work 5
+          <button id="pause_resume" class="timer-button" type="button">
+            Snooze start
           </button>
           <button class="timer-button" data-seconds="900" type="button">
             Quick 15
           </button>
-          <button class="timer-button" data-seconds="1200" type="button">
-            Snack 20
+          <button class="timer-button" data-seconds="1800" type="button">
+            Steps 30
+          </button>
+          <button class="timer-button" data-seconds="2700" type="button">
+            Long 45
           </button>
           <button class="timer-button" data-seconds="3600" type="button">
-            Lunch Break
+            Hour
           </button>
+          
         </div>
         <form id="form">
           <input
@@ -55,16 +57,23 @@
         </form>
       </header>
       <div class="display">
+        <div class="display-now-time"></div>
         <div class="display-remaining-time"></div>
         <div class="display-end-time"></div>
       </div>
     </div>
 
-    <audio loop preload="auto" id="sound">
-      <source src="sound/tick-tock.mp3" />
+    <audio loop preload="auto" id="sound" autoplay>
+      <source src="sound/end_sound.mp3" type="audio/mpeg"/>
       Your browser does not support the
       <code>audio</code> element.
     </audio>
+
+    <audio preload="auto" id="error_sound">
+        <source src="sound/error_sound.mp3" type="audio/mpeg"/>
+        Your browser does not support the
+        <code>audio</code> element.
+      </audio>
 
     <!-- javascript -->
     <script src="js/script.js"></script>

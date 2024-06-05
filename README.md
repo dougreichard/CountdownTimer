@@ -1,3 +1,13 @@
+this is my extensions to the project below
+
+My version:
+-  end timer sound 
+- no ticking sound
+- displays time
+- stop, pause, resume, snooze combined button
+- My specific choices for timers 
+
+
 |                               [Countdown Timer](https://youtu.be/7guNNC2QEKo "Click me!⌛") 🕔                               |
 | :--------------------------------------------------------------------------------------------------------------------------: |
 |                                                                                                                              |
